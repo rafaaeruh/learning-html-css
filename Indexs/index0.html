@@ -17,37 +17,47 @@
 <body>
     
     <aside id="barra-lateral">
-        
-        <img src="" alt="Logo"> 
+         
         <nav>
-            <ul>
-                <li class="botao">Novo Chat </li>
-                <li class="botao">Buscar em Chats </li>
-                <li class="botao">Galeria</li>
+            <img src="./assets/gpticon.png" id="logoaside" alt="Logo">
+            <ul class="botoes">
+                <li class="botao"> <img src="./assets/editicon.png" alt=""> Novo Chat </li>
+                <li class="botao"> <img src="./assets/buscaicon.png" alt=""> Buscar em chats </li>
+                <li class="botao"> <img src="./assets/galeriaicon.png" alt=""> Galeria</li>
             </ul>
+
+            <ul class="botoes", style="margin-top: 18px;">
+                <li class="botao"> <img src="./assets/editicon.png" alt="">Sora </li>
+                <li class="botao"> <img src="./assets/buscaicon.png" alt="">GPTs</li>
+                <li class="botao"> <img src="./assets/galeriaicon.png" alt=""> Galeria</li>
+            </ul>
+
         </nav>
         
-        <p style="margin: 4px 12px;">
+        <div id="container-historico">
+            <p style="margin: 4px 12px;color: rgb(111, 111, 111);;">
             Chats
-        </p>
+            </p>
+            
+            <ul id="historico">
+                <li>
+                    Conversa1
+                </li>
+                <li>
+                    Conversa2
+                </li>
+            </ul>
 
-        <ul id="historico">
-            <li>
-                Conversa1
-            </li>
-            <li>
-                Conversa2
-            </li>
-        </ul>
+        </div>
+        
     
-    <div>
-        <span>
-            <img src="" alt="icon">
-            <span>
-                night noturno <br>Grátis
-            </span>
-        </span>
-    </div>
+
+        <div id="user">
+                <img src="./assets/proficon.png" alt="icon">
+                <div>
+                    night noturno <br>Grátis
+                </div>
+        </div>
 
     </aside>
         
