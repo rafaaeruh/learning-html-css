@@ -1,0 +1,45 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    display: flex;
+}
+
+
+
+#barra-lateral {
+    max-width: 260px;
+    width: 100%;
+    border: 1px solid;
+}
+
+
+nav{
+    padding: 8px 0px;
+}
+
+#historico {
+    border: 1px solid red;
+    margin-left: 2px;
+}
+
+
+#historico li {
+    padding: 6px 10px;
+}
+
+
+.botao{
+    color: red;
+
+    border: 1px solid;
+
+    padding: 4px 14px;
+    border-radius: 7px;
+}
