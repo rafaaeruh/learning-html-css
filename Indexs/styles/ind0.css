@@ -62,7 +62,12 @@ nav{
     padding: 6px 10px;
     color: white;
 }
+.botoes {
 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 .botoes li {
     display: flex;
     align-items: center;
@@ -91,4 +96,28 @@ nav{
 #user img{
     width: 38px;
     height: 38px;
+}
+
+
+
+/* principal */
+
+main{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    width: 100%;
+}
+
+main header {
+    display: flex;
+    align-items: center;
+
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.107);
+}
+
+main header div{
+    font-size: 25px;
+    display: inline;
+    margin-left: 22px;
 }
