@@ -32,8 +32,6 @@ img{
 
 }
 
-#barra-lateral nav {
-}
 
 #logoaside {
     width: 60px;
@@ -106,6 +104,10 @@ main{
     background-color: rgb(33, 33, 33);
     color: white;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 main header {
@@ -120,4 +122,32 @@ main header div{
     font-size: 25px;
     display: inline;
     margin-left: 22px;
+}
+
+main p {
+    text-align: center;
+    font-size: 44px;
+}
+
+
+#campo-pesquisa {
+
+    padding: 24px;
+
+    color: rgba(255, 255, 255, 0.644);
+    background-color: rgba(54, 54, 54, 0.749);
+
+    border: 1px solid rgba(255, 255, 255, 0.235);
+    border-radius: 34px;
+
+    max-width: 90%;
+
+    margin: auto;
+
+}
+
+
+footer{
+    text-align: center;
+    padding: 7px;
 }
