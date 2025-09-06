@@ -10,6 +10,11 @@ img {
 }
 
 
+header{
+    background-image: linear-gradient(#1e415e 10%, #2b5b84 90%);
+    height: 561px;
+}
+
 #header-1 nav {
     width: 100vw;
     margin: auto;
@@ -34,7 +39,6 @@ img {
 #header-1 nav ul li {
     border: 1px solid red;
     padding: 8px 12px;
-    width: ;
 }
 
 
@@ -48,3 +52,22 @@ img {
     margin: auto;
 } 
 
+
+#barrasearch{
+    display: flex;
+}
+
+#header-2 nav {
+    width: 1168px;
+    background-color: #3776ab;
+    margin: auto;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+#header-2 nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
